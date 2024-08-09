@@ -1,0 +1,61 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    background-image: linear-gradient(to left, #F0E7CC, #C7BC9C);
+    font-family: 'Courier Prime','Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+h1#principal {
+    background-color: black;
+    color: #F0E7CC;
+    font-family: 'Permanent Marker', 'cursive' 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+main {
+    border-radius: 10px;
+    box-shadow: 5px, 5px 15px #382C07;
+    width: 1200px;
+    padding: 10px;
+    margin: auto;
+    background-color: #706132;
+    color: #F0E7CC;
+}
+
+.categoria {
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    background-color:#382C07;
+    color: #F0E7CC;
+    text-align: center;
+    font-family: 'Permanent Marker', 'cursive' 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+hr {
+    border-color: black;
+}
+
+p {
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.textinho {
+    text-align: center;
+    text-indent: 30px;
+}
+
+.descrição {
+    text-align: justify;
+    text-indent: 30px;
+}

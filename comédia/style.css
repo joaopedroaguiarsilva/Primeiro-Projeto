@@ -1,0 +1,47 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    background-image: linear-gradient(to left, #F0E7CC, #C7BC9C);
+    font-family: 'Courier Prime','Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.categoria {
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    background-attachment: fixed;
+    border-radius: 10px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    background-color:#382C07;
+    color: #F0E7CC;
+    text-align: center;
+    font-family: 'Permanent Marker', 'cursive' 'Times New Roman', Times, serif;
+}
+
+.filme {
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    background-color:#706132;
+    color: #000000;
+    text-align: left;
+    font-family: 'Permanent Marker', 'cursive' 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.textinho {
+    text-align: center;
+    text-indent: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+hr {
+    border-color: black;
+}
